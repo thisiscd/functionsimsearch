@@ -22,17 +22,17 @@ mkdir third_party
 cd third_party
 
 # Download Dyninst.
-wget https://github.com/dyninst/dyninst/archive/v9.3.2.tar.gz
-tar xvf ./v9.3.2.tar.gz
+# wget https://github.com/dyninst/dyninst/archive/v9.3.2.tar.gz
+# tar xvf ./v9.3.2.tar.gz
 # Download PicoSHA, pe-parse, SPII and the C++ JSON library.
-git clone https://github.com/okdshin/PicoSHA2.git
-git clone https://github.com/trailofbits/pe-parse.git
-git clone https://github.com/PetterS/spii.git
-mkdir json
-mkdir json/src
-cd json/src
-wget https://github.com/nlohmann/json/releases/download/v3.1.2/json.hpp
-cd ../..
+# git clone https://github.com/okdshin/PicoSHA2.git
+# git clone https://github.com/trailofbits/pe-parse.git/v1.20
+# git clone https://github.com/PetterS/spii.git
+# mkdir json
+# mkdir json/src
+# cd json/src
+# wget https://github.com/nlohmann/json/releases/download/v3.1.2/json.hpp
+# cd ../..
 
 # Build PE-Parse.
 cd pe-parse

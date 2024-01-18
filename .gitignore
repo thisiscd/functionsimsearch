@@ -27,7 +27,7 @@
 *.lib
 
 # Executables
-*.exe
+# *.exe
 *.out
 *.app
 
@@ -43,3 +43,9 @@ install_manifest.txt
 compile_commands.json
 CTestTestfile.cmake
 _deps
+
+# others
+*.zip
+*.tar
+*.tar.gz
+**/bin
